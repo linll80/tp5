@@ -1,0 +1,2113 @@
+---------------------------------------------------------------
+[ 2018-08-15T19:01:33+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：5,667.78kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:35+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.160009s][吞吐率：6.25req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.036002s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.032001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:37+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.130007s][吞吐率：7.69req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:39+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.115007s][吞吐率：8.70req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:41+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:43+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.128008s][吞吐率：7.81req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.033001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:45+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.172010s][吞吐率：5.81req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059003s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:47+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.182011s][吞吐率：5.49req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.054003s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:49+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.473027s][吞吐率：2.11req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.352020s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:51+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:53+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:55+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:57+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.122007s][吞吐率：8.20req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021002s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:01:59+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.091005s][吞吐率：10.99req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:01+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.204012s][吞吐率：4.90req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.081005s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:03+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.109006s][吞吐率：9.17req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:05+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.326019s][吞吐率：3.07req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.153008s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.032001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.064004s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:07+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.107006s][吞吐率：9.35req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.018001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:09+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.257015s][吞吐率：3.89req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.134007s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:11+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.162010s][吞吐率：6.17req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.059003s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.032001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:13+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037002s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:15+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.372021s][吞吐率：2.69req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.178011s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.100006s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:17+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.104006s][吞吐率：9.61req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:19+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.101006s][吞吐率：9.90req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:21+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.203011s][吞吐率：4.93req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062003s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:23+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.015001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:25+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.082005s][吞吐率：12.19req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:27+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.114006s][吞吐率：8.77req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.021001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:29+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.266016s][吞吐率：3.76req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.189010s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:31+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.212012s][吞吐率：4.72req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.102006s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:33+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.271015s][吞吐率：3.69req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.179011s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:35+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.027001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:37+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.155009s][吞吐率：6.45req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.043002s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:50+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.017001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:51+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：1.039059s][吞吐率：0.96req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.175010s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T19:02:54+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.916053s][吞吐率：1.09req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.078004s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.014000s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:13:40+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：2.069119s][吞吐率：0.48req/s] [内存消耗：5,714.09kb] [文件加载：61]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.906052s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.229013s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `cate_type` = 3 ORDER BY sort DESC [ RunTime:0.130007s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 16 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `tp_article` WHERE  `cate_id` = 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_nav` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_nav` ORDER BY sort DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_conf` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `tp_conf` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:05+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.313018s][吞吐率：3.19req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.198011s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:06+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.265015s][吞吐率：3.77req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.052003s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.140008s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015000s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:13+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.126007s][吞吐率：7.94req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:14+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.319018s][吞吐率：3.13req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.188011s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.038002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.022002s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:16+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.048003s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:18+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.136007s][吞吐率：7.35req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.038002s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:20+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:24+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.249014s][吞吐率：4.02req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.037002s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.141008s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:24+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.199012s][吞吐率：5.02req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.118007s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:26+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.269016s][吞吐率：3.72req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.158009s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001001s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:28+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:30+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.300018s][吞吐率：3.33req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.203011s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.024002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-15T21:14:32+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/getpaystatus.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/getpaystatus.html [运行时间：0.239014s][吞吐率：4.18req/s] [内存消耗：5,667.59kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'getpaystatus',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '29',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/flow/flow4/oid/26',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=miioakvdll2osremt2pbbabuc1; cart=a%3A1%3A%7Bs%3A8%3A%2216-72%2C75%22%3Bi%3A5%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'out_trade_no' => '1534320003828830',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->getPayStatus[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.079005s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.044002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT `pay_status` FROM `tp_order` WHERE  `out_trade_no` = '1534320003828830' LIMIT 1 [ RunTime:0.000000s ]

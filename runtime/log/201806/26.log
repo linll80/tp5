@@ -1,0 +1,1113 @@
+---------------------------------------------------------------
+[ 2018-06-26T11:21:08+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/goods/16.html
+[ info ] 127.0.0.1/shop/index.php/goods/16.html [è¿è¡Œæ—¶é—´ï¼š22.246272s][åžåçŽ‡ï¼š0.04req/s] [å†…å­˜æ¶ˆè€—ï¼š5,186.34kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Goods',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'id' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:34:44+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/Flow/loginDailog
+[ info ] 127.0.0.1/shop/index.php/index/Flow/loginDailog [è¿è¡Œæ—¶é—´ï¼š21.431226s][åžåçŽ‡ï¼š0.05req/s] [å†…å­˜æ¶ˆè€—ï¼š5,251.15kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'loginDailog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'origin' => 'http://www.wacoders.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://www.wacoders.com/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'back_act' => '/index.php/flow1.html',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:34:48+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/Flow/loginDailog
+[ info ] 127.0.0.1/shop/index.php/index/Flow/loginDailog [è¿è¡Œæ—¶é—´ï¼š21.137209s][åžåçŽ‡ï¼š0.05req/s] [å†…å­˜æ¶ˆè€—ï¼š5,251.15kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'loginDailog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'origin' => 'http://www.wacoders.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://www.wacoders.com/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'back_act' => '/index.php/flow1.html',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:34:54+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/Flow/loginDailog
+[ info ] 127.0.0.1/shop/index.php/index/Flow/loginDailog [è¿è¡Œæ—¶é—´ï¼š21.121208s][åžåçŽ‡ï¼š0.05req/s] [å†…å­˜æ¶ˆè€—ï¼š5,251.14kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'loginDailog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'origin' => 'http://www.wacoders.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://www.wacoders.com/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'back_act' => '/index.php/flow1.html',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:35:00+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/Flow/loginDailog
+[ info ] 127.0.0.1/shop/index.php/index/Flow/loginDailog [è¿è¡Œæ—¶é—´ï¼š21.086206s][åžåçŽ‡ï¼š0.05req/s] [å†…å­˜æ¶ˆè€—ï¼š5,251.16kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'loginDailog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'origin' => 'http://www.wacoders.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://www.wacoders.com/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'back_act' => '/index.php/flow1.html',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:35:13+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/Flow/loginDailog
+[ info ] 127.0.0.1/shop/index.php/index/Flow/loginDailog [è¿è¡Œæ—¶é—´ï¼š21.099207s][åžåçŽ‡ï¼š0.05req/s] [å†…å­˜æ¶ˆè€—ï¼š5,251.15kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'loginDailog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'origin' => 'http://www.wacoders.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://www.wacoders.com/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'back_act' => '/index.php/flow1.html',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:35:19+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/Flow/loginDailog
+[ info ] 127.0.0.1/shop/index.php/index/Flow/loginDailog [è¿è¡Œæ—¶é—´ï¼š21.127208s][åžåçŽ‡ï¼š0.05req/s] [å†…å­˜æ¶ˆè€—ï¼š5,251.15kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'loginDailog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'origin' => 'http://www.wacoders.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://www.wacoders.com/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'back_act' => '/index.php/flow1.html',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:35:42+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/Flow/loginDailog
+[ info ] 127.0.0.1/shop/index.php/index/Flow/loginDailog [è¿è¡Œæ—¶é—´ï¼š21.102207s][åžåçŽ‡ï¼š0.05req/s] [å†…å­˜æ¶ˆè€—ï¼š5,251.15kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'loginDailog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'origin' => 'http://www.wacoders.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://www.wacoders.com/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'back_act' => '/index.php/flow1.html',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:35:48+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/Flow/loginDailog
+[ info ] 127.0.0.1/shop/index.php/index/Flow/loginDailog [è¿è¡Œæ—¶é—´ï¼š21.082206s][åžåçŽ‡ï¼š0.05req/s] [å†…å­˜æ¶ˆè€—ï¼š5,251.15kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'loginDailog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'origin' => 'http://www.wacoders.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://www.wacoders.com/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'back_act' => '/index.php/flow1.html',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:36:04+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/Flow/loginDailog
+[ info ] 127.0.0.1/shop/index.php/index/Flow/loginDailog [è¿è¡Œæ—¶é—´ï¼š21.074205s][åžåçŽ‡ï¼š0.05req/s] [å†…å­˜æ¶ˆè€—ï¼š5,251.15kb] [æ–‡ä»¶åŠ è½½ï¼š59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'loginDailog',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '30',
+  'origin' => 'http://www.wacoders.com',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://www.wacoders.com/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'back_act' => '/index.php/flow1.html',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2002]SQLSTATE[HY000] [2002] ÓÉÓÚÁ¬½Ó·½ÔÚÒ»¶ÎÊ±¼äºóÃ»ÓÐÕýÈ·´ð¸´»òÁ¬½ÓµÄÖ÷»úÃ»ÓÐ·´Ó¦£¬Á¬½Ó³¢ÊÔÊ§°Ü¡£
+[F:\wamp\www\shop\thinkphp\library\think\db\Connection.php:293]
+---------------------------------------------------------------
+[ 2018-06-26T11:39:08+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/login
+[ info ] 127.0.0.1/shop/index.php/member/account/login [è¿è¡Œæ—¶é—´ï¼š1.124064s][åžåçŽ‡ï¼š0.89req/s] [å†…å­˜æ¶ˆè€—ï¼š5,844.80kb] [æ–‡ä»¶åŠ è½½ï¼š63]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->login[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ VIEW ] F:\wamp\www\shop/application/member\view\account\login.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.219012s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `cate_type` = 3 ORDER BY sort DESC [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 17 [ RunTime:0.004001s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `tp_article` WHERE  `cate_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_nav` [ RunTime:0.025002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_nav` ORDER BY sort DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_conf` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `tp_conf` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-06-26T11:39:09+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/sms.js
+[ info ] 127.0.0.1/shop/public/static/index/js/sms.js [è¿è¡Œæ—¶é—´ï¼š0.084005s][åžåçŽ‡ï¼š11.90req/s] [å†…å­˜æ¶ˆè€—ï¼š2,573.13kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/member/account/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T11:39:10+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/favicon.ico
+[ info ] 127.0.0.1/shop/index.php/member/account/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.163010s][åžåçŽ‡ï¼š6.13req/s] [å†…å­˜æ¶ˆè€—ï¼š5,746.20kb] [æ–‡ä»¶åŠ è½½ï¼š62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'favicon.ico',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/member/account/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.028001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-06-26T11:39:16+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/member/account/login.html
+[ info ] 127.0.0.1/shop/index.php/member/account/login.html [è¿è¡Œæ—¶é—´ï¼š0.144008s][åžåçŽ‡ï¼š6.94req/s] [å†…å­˜æ¶ˆè€—ï¼š5,758.22kb] [æ–‡ä»¶åŠ è½½ï¼š63]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/member/account/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'tongpan',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->login[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: back_act[F:\wamp\www\shop\application\member\controller\Account.php:41]
+---------------------------------------------------------------
+[ 2018-06-26T11:39:21+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/member/account/login.html
+[ info ] 127.0.0.1/shop/index.php/member/account/login.html [è¿è¡Œæ—¶é—´ï¼š0.128007s][åžåçŽ‡ï¼š7.81req/s] [å†…å­˜æ¶ˆè€—ï¼š5,758.22kb] [æ–‡ä»¶åŠ è½½ï¼š63]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/member/account/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'tongpan',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->login[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ error ] [8]æœªå®šä¹‰æ•°ç»„ç´¢å¼•: back_act[F:\wamp\www\shop\application\member\controller\Account.php:41]
+---------------------------------------------------------------
+[ 2018-06-26T11:40:42+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/member/account/login.html
+[ info ] 127.0.0.1/shop/index.php/member/account/login.html [è¿è¡Œæ—¶é—´ï¼š0.178010s][åžåçŽ‡ï¼š5.62req/s] [å†…å­˜æ¶ˆè€—ï¼š5,833.33kb] [æ–‡ä»¶åŠ è½½ï¼š64]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/member/account/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'tongpan',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->login[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ error ] [8]æœªå®šä¹‰å˜é‡: backAct[F:\wamp\www\shop\application\member\controller\Account.php:44]
+---------------------------------------------------------------
+[ 2018-06-26T11:41:10+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/login
+[ info ] 127.0.0.1/shop/index.php/member/account/login [è¿è¡Œæ—¶é—´ï¼š0.135008s][åžåçŽ‡ï¼š7.41req/s] [å†…å­˜æ¶ˆè€—ï¼š5,798.45kb] [æ–‡ä»¶åŠ è½½ï¼š62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->login[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ VIEW ] F:\wamp\www\shop/application/member\view\account\login.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.029001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-06-26T11:41:10+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/sms.js
+[ info ] 127.0.0.1/shop/public/static/index/js/sms.js [è¿è¡Œæ—¶é—´ï¼š0.060004s][åžåçŽ‡ï¼š16.67req/s] [å†…å­˜æ¶ˆè€—ï¼š2,573.13kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/member/account/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T11:41:10+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/sms.js
+[ info ] 127.0.0.1/shop/public/static/index/js/sms.js [è¿è¡Œæ—¶é—´ï¼š0.048002s][åžåçŽ‡ï¼š20.83req/s] [å†…å­˜æ¶ˆè€—ï¼š2,573.13kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/member/account/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T11:41:21+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/member/account/login.html
+[ info ] 127.0.0.1/shop/index.php/member/account/login.html [è¿è¡Œæ—¶é—´ï¼š0.202011s][åžåçŽ‡ï¼š4.95req/s] [å†…å­˜æ¶ˆè€—ï¼š5,764.66kb] [æ–‡ä»¶åŠ è½½ï¼š61]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '32',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/member/account/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'username' => 'tongpan',
+  'password' => '123456',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->login[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.027002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` WHERE  `username` = 'tongpan' OR `email` = 'tongpan'  OR `mobile_phone` = 'tongpan' LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_member_level` [ RunTime:0.032002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_member_level` WHERE  `bom_point` <= 25000  AND `top_point` >= 25000 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-06-26T11:41:22+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/index.html
+[ info ] 127.0.0.1/shop/index.php/index.html [è¿è¡Œæ—¶é—´ï¼š0.638037s][åžåçŽ‡ï¼š1.57req/s] [å†…å­˜æ¶ˆè€—ï¼š6,444.77kb] [æ–‡ä»¶åŠ è½½ï¼š67]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Index',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/member/account/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=54fn365n10upb5185mck5lrcb6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\wamp\www\shop/application/index\view\index\index.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+  5 => 'show_right',
+  6 => 'show_nav',
+  7 => 'categoryRes',
+  8 => 'indexGoodsRes',
+  9 => 'anmentRes',
+  10 => 'salesRes',
+  11 => 'alternateImgRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 20 ORDER BY id DESC LIMIT 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 26 ORDER BY id DESC LIMIT 3 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_rec_item` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `recpos_id` = 5  AND `value_type` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 2  AND `pid` = 0 LIMIT 1 [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 7  AND `pid` = 0 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 8  AND `pid` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 9  AND `pid` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 21  AND `pid` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `recpos_id` = 5  AND `value_type` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 2  AND `pid` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 7  AND `pid` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 8  AND `pid` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 9  AND `pid` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 21  AND `pid` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (29,21)  AND `id` IN (10,13,6,9,7,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.039002s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (6,26,27,28,5,22,23,24,25,21,29,2)  AND `id` IN (11,10,9,7,5,6,8,4,13,2,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_brands` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_brands` WHERE  `category_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_ad` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_ad` WHERE  `category_id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `recpos_id` = 5  AND `value_type` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 2  AND `pid` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 7  AND `pid` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 8  AND `pid` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 9  AND `pid` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 21  AND `pid` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (11,12,13,14,8)  AND `id` IN (10,13,6,9,7,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (15,16,17,9)  AND `id` IN (10,13,6,9,7,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 4 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (8,11,12,13,14,9,15,16,17,10,18,19,20,7)  AND `id` IN (11,10,9,7,5,6,8,4,13,2,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_brands` WHERE  `category_id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_ad` WHERE  `category_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`mid_thumb`,`goods_name`,`shop_price`,`markte_price` FROM `tp_goods` WHERE  `id` IN (10,11,13,16) LIMIT 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_alternate_img` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_alternate_img` WHERE  `status` = 1 ORDER BY sort DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-06-26T11:41:22+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/0_thumb_G_1490205189180.jpg
+[ info ] 127.0.0.1/shop/public/static/index/img/0_thumb_G_1490205189180.jpg [è¿è¡Œæ—¶é—´ï¼š0.056003s][åžåçŽ‡ï¼š17.86req/s] [å†…å­˜æ¶ˆè€—ï¼š2,573.55kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=54fn365n10upb5185mck5lrcb6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T11:41:23+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/sprite_index.png
+[ info ] 127.0.0.1/shop/public/static/index/img/sprite_index.png [è¿è¡Œæ—¶é—´ï¼š0.059003s][åžåçŽ‡ï¼š16.95req/s] [å†…å­˜æ¶ˆè€—ï¼š2,573.61kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/public/static/index/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=54fn365n10upb5185mck5lrcb6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T11:41:24+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/cartgoodsnum.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/cartgoodsnum.html [è¿è¡Œæ—¶é—´ï¼š0.269016s][åžåçŽ‡ï¼š3.72req/s] [å†…å­˜æ¶ˆè€—ï¼š5,698.84kb] [æ–‡ä»¶åŠ è½½ï¼š61]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'cartgoodsnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=54fn365n10upb5185mck5lrcb6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->cartGoodsNum[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-06-26T11:41:24+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/checklogin.html
+[ info ] 127.0.0.1/shop/index.php/member/account/checklogin.html [è¿è¡Œæ—¶é—´ï¼š0.290016s][åžåçŽ‡ï¼š3.45req/s] [å†…å­˜æ¶ˆè€—ï¼š5,673.57kb] [æ–‡ä»¶åŠ è½½ï¼š60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=54fn365n10upb5185mck5lrcb6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->checkLogin[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.048003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.011000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-06-26T11:41:24+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/favicon.ico
+[ info ] 127.0.0.1/shop/index.php/favicon.ico [è¿è¡Œæ—¶é—´ï¼š0.086005s][åžåçŽ‡ï¼š11.63req/s] [å†…å­˜æ¶ˆè€—ï¼š2,572.45kb] [æ–‡ä»¶åŠ è½½ï¼š40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=54fn365n10upb5185mck5lrcb6',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-06-26T11:41:24+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/brand/lst.html
+[ info ] 127.0.0.1/shop/index.php/index/brand/lst.html [è¿è¡Œæ—¶é—´ï¼š0.519029s][åžåçŽ‡ï¼š1.93req/s] [å†…å­˜æ¶ˆè€—ï¼š4,574.48kb] [æ–‡ä»¶åŠ è½½ï¼š55]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=54fn365n10upb5185mck5lrcb6',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Brand->lst[ F:\wamp\www\shop\application\index\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_brand` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` ORDER BY id DESC LIMIT 0,17 [ RunTime:0.003001s ]
+---------------------------------------------------------------
+[ 2018-06-26T11:43:43+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/category/getcateinfo.html
+[ info ] 127.0.0.1/shop/index.php/index/category/getcateinfo.html [è¿è¡Œæ—¶é—´ï¼š0.331019s][åžåçŽ‡ï¼š3.02req/s] [å†…å­˜æ¶ˆè€—ï¼š5,778.58kb] [æ–‡ä»¶åŠ è½½ï¼š62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'getcateinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=54fn365n10upb5185mck5lrcb6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '7',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Category->getCateInfo[ F:\wamp\www\shop\application\index\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 8 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 9 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 10 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_words` [ RunTime:0.042002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_words` WHERE  `category_id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_brands` [ RunTime:0.051003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_brands` WHERE  `category_id` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-06-26T11:43:43+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/category/getcateinfo.html
+[ info ] 127.0.0.1/shop/index.php/index/category/getcateinfo.html [è¿è¡Œæ—¶é—´ï¼š0.392023s][åžåçŽ‡ï¼š2.55req/s] [å†…å­˜æ¶ˆè€—ï¼š5,778.23kb] [æ–‡ä»¶åŠ è½½ï¼š62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'getcateinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/index.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'cart=a%3A5%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%226%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A27%3Bs%3A8%3A%2216-72%2C76%22%3Bs%3A1%3A%223%22%3Bs%3A8%3A%2215-68%2C69%22%3Bi%3A8%3Bs%3A8%3A%2216-74%2C75%22%3Bs%3A1%3A%221%22%3B%7D; PHPSESSID=54fn365n10upb5185mck5lrcb6',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Category->getCateInfo[ F:\wamp\www\shop\application\index\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.052003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 21 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_words` [ RunTime:0.036002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_words` WHERE  `category_id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_brands` [ RunTime:0.047003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_brands` WHERE  `category_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.031001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]

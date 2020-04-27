@@ -1,0 +1,937 @@
+---------------------------------------------------------------
+[ 2018-05-23T20:45:07+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/goods/16.html
+[ info ] 127.0.0.1/shop/index.php/goods/16.html [运行时间：24.286389s][吞吐率：0.04req/s] [内存消耗：3,490.59kb] [文件加载：63]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Goods',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'id' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->index[ F:\wamp\www\shop\application\index\controller\Goods.php ]
+[ info ] [ VIEW ] F:\wamp\www\shop/application/index\view\goods\goods.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+  5 => 'show_right',
+  6 => 'goodsInfo',
+  7 => 'goodsPhotoRes',
+  8 => 'uniAttrArr',
+  9 => 'radioAttrArr',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:5.638323s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:4.588262s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `cate_type` = 3 ORDER BY sort DESC [ RunTime:0.382021s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.350020s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 4 [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 16 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `tp_article` WHERE  `cate_id` = 3 [ RunTime:0.262015s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_nav` [ RunTime:1.406080s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_nav` ORDER BY sort DESC [ RunTime:0.061004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_conf` [ RunTime:0.480028s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `tp_conf` [ RunTime:0.025001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.161009s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.265016s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.317018s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods_photo` [ RunTime:0.187010s ]
+[ sql ] [ SQL ] SELECT `sm_photo`,`mid_photo`,`big_photo`,`og_photo` FROM `tp_goods_photo` WHERE  `goods_id` = 16 [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.131007s ]
+[ sql ] [ SQL ] SELECT `ga`.*,`a`.`attr_name`,`a`.`attr_type` FROM `tp_goods_attr` `ga` INNER JOIN `tp_attr` `a` ON `ga`.`attr_id`=`a`.`id` WHERE  `ga`.`goods_id` = '16' [ RunTime:0.646037s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:14+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/perfect-scrollbar/perfect-scrollbar.min.css
+[ info ] 127.0.0.1/shop/public/static/index/js/perfect-scrollbar/perfect-scrollbar.min.css [运行时间：2.314132s][吞吐率：0.43req/s] [内存消耗：1,557.32kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'scrollbar' => 'perfect-scrollbar.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:14+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/calendar/calendar.min.css
+[ info ] 127.0.0.1/shop/public/static/index/js/calendar/calendar.min.css [运行时间：0.802046s][吞吐率：1.25req/s] [内存消耗：1,557.05kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'calendar' => 'calendar.min.css',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:14+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/calendar.php?lang=
+[ info ] 127.0.0.1/shop/public/static/index/js/calendar.php?lang= [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,556.98kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'lang' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:15+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/summary-bg.jpg
+[ info ] 127.0.0.1/shop/public/static/index/img/summary-bg.jpg [运行时间：0.040003s][吞吐率：25.00req/s] [内存消耗：1,556.25kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/public/static/index/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:16+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/calendar.php?lang=
+[ info ] 127.0.0.1/shop/public/static/index/js/calendar.php?lang= [运行时间：0.028001s][吞吐率：35.71req/s] [内存消耗：1,556.98kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'lang' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:16+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/prompt/not-imp.png
+[ info ] 127.0.0.1/shop/public/static/index/img/prompt/not-imp.png [运行时间：0.150008s][吞吐率：6.67req/s] [内存消耗：1,557.28kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/public/static/index/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'prompt' => 'not-imp.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:17+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/cartgoodsnum.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/cartgoodsnum.html [运行时间：0.787045s][吞吐率：1.27req/s] [内存消耗：3,352.36kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'cartgoodsnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->cartGoodsNum[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.265016s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.139008s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:18+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/goods/favicon.ico
+[ info ] 127.0.0.1/shop/index.php/goods/favicon.ico [运行时间：0.018002s][吞吐率：55.55req/s] [内存消耗：1,555.74kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'goods',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:18+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/goods/ajaxgetmemberprice.html
+[ info ] 127.0.0.1/shop/index.php/index/goods/ajaxgetmemberprice.html [运行时间：1.911109s][吞吐率：0.52req/s] [内存消耗：3,386.18kb] [文件加载：61]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'goods',
+    2 => 'ajaxgetmemberprice',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '11',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'goods_id' => '16',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Goods->ajaxGetMemberPrice[ F:\wamp\www\shop\application\index\controller\Goods.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.210012s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.062004s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:18+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/checklogin.html
+[ info ] 127.0.0.1/shop/index.php/member/account/checklogin.html [运行时间：2.302132s][吞吐率：0.43req/s] [内存消耗：3,435.83kb] [文件加载：62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->checkLogin[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:19+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/addtocart.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/addtocart.html [运行时间：0.200011s][吞吐率：5.00req/s] [内存消耗：3,393.41kb] [文件加载：61]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'addtocart',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '139',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A23%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'goods' => '{"warehouse_id":"2","area_id":"16","confirm_type":"3","quick":1,"spec":[],"goods_id":16,"number":"1","goods_attr":"72,75","parent":0}',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->addToCart[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.021001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:19+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/flow1.html
+[ info ] 127.0.0.1/shop/index.php/flow1.html [运行时间：0.491028s][吞吐率：2.04req/s] [内存消耗：3,543.38kb] [文件加载：64]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'flow1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->flow1[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\wamp\www\shop/application/index\view\flow\flow1.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+  5 => 'cartGoodsRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.073004s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_name`,`mid_thumb` FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT `ga`.*,`a`.`attr_name` FROM `tp_goods_attr` `ga` INNER JOIN `tp_attr` `a` ON `ga`.`attr_id`=`a`.`id` WHERE  `ga`.`id` IN ('73','77') [ RunTime:0.102006s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_name`,`mid_thumb` FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `ga`.*,`a`.`attr_name` FROM `tp_goods_attr` `ga` INNER JOIN `tp_attr` `a` ON `ga`.`attr_id`=`a`.`id` WHERE  `ga`.`id` IN ('72','75') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/perfect-scrollbar/perfect-scrollbar.min.js
+[ info ] 127.0.0.1/shop/public/static/index/js/perfect-scrollbar/perfect-scrollbar.min.js [运行时间：0.028002s][吞吐率：35.71req/s] [内存消耗：1,557.21kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'scrollbar' => 'perfect-scrollbar.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/dian-ico2.png
+[ info ] 127.0.0.1/shop/public/static/index/img/dian-ico2.png [运行时间：0.027002s][吞吐率：37.03req/s] [内存消耗：1,556.23kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/public/static/index/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/search.png
+[ info ] 127.0.0.1/shop/public/static/index/img/search.png [运行时间：0.032002s][吞吐率：31.25req/s] [内存消耗：1,556.20kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/public/static/index/css/base.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/favicon.ico
+[ info ] 127.0.0.1/shop/index.php/favicon.ico [运行时间：0.016001s][吞吐率：62.50req/s] [内存消耗：1,555.59kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'favicon.ico',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:20+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/checklogin.html
+[ info ] 127.0.0.1/shop/index.php/member/account/checklogin.html [运行时间：0.090005s][吞吐率：11.11req/s] [内存消耗：3,435.70kb] [文件加载：62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->checkLogin[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.022002s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:32+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/flow.php
+[ info ] 127.0.0.1/shop/index.php/flow.php [运行时间：0.031002s][吞吐率：32.26req/s] [内存消耗：1,558.16kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'flow.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'goPay' => '去支付',
+  'step' => 'checkout',
+  'store_seller' => '',
+  'cart_value' => '',
+  'goods_ru' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:38+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/flow1.html
+[ info ] 127.0.0.1/shop/index.php/flow1.html [运行时间：0.132008s][吞吐率：7.58req/s] [内存消耗：3,543.38kb] [文件加载：64]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'flow1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->flow1[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\wamp\www\shop/application/index\view\flow\flow1.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+  5 => 'cartGoodsRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.024001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.023002s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_name`,`mid_thumb` FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.033002s ]
+[ sql ] [ SQL ] SELECT `ga`.*,`a`.`attr_name` FROM `tp_goods_attr` `ga` INNER JOIN `tp_attr` `a` ON `ga`.`attr_id`=`a`.`id` WHERE  `ga`.`id` IN ('73','77') [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_name`,`mid_thumb` FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `ga`.*,`a`.`attr_name` FROM `tp_goods_attr` `ga` INNER JOIN `tp_attr` `a` ON `ga`.`attr_id`=`a`.`id` WHERE  `ga`.`id` IN ('72','75') [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:38+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/perfect-scrollbar/perfect-scrollbar.min.js
+[ info ] 127.0.0.1/shop/public/static/index/js/perfect-scrollbar/perfect-scrollbar.min.js [运行时间：0.026001s][吞吐率：38.46req/s] [内存消耗：1,557.21kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'scrollbar' => 'perfect-scrollbar.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:39+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/checklogin.html
+[ info ] 127.0.0.1/shop/index.php/member/account/checklogin.html [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：3,435.70kb] [文件加载：62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->checkLogin[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.029002s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.028002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:47+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/flow.php
+[ info ] 127.0.0.1/shop/index.php/flow.php [运行时间：0.027001s][吞吐率：37.04req/s] [内存消耗：1,558.16kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'flow.php',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '83',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+  'goPay' => '去支付',
+  'step' => 'checkout',
+  'store_seller' => '',
+  'cart_value' => '',
+  'goods_ru' => '',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-23T20:45:52+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/flow1.html
+[ info ] 127.0.0.1/shop/index.php/flow1.html [运行时间：0.134007s][吞吐率：7.46req/s] [内存消耗：3,543.38kb] [文件加载：64]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Flow',
+    2 => 'flow1',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/goods/16.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->flow1[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] F:\wamp\www\shop/application/index\view\flow\flow1.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+  5 => 'cartGoodsRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_name`,`mid_thumb` FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT `ga`.*,`a`.`attr_name` FROM `tp_goods_attr` `ga` INNER JOIN `tp_attr` `a` ON `ga`.`attr_id`=`a`.`id` WHERE  `ga`.`id` IN ('73','77') [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`goods_name`,`mid_thumb` FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `id` = 16 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `ga`.*,`a`.`attr_name` FROM `tp_goods_attr` `ga` INNER JOIN `tp_attr` `a` ON `ga`.`attr_id`=`a`.`id` WHERE  `ga`.`id` IN ('72','75') [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-05-23T20:45:52+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/checklogin.html
+[ info ] 127.0.0.1/shop/index.php/member/account/checklogin.html [运行时间：0.100005s][吞吐率：10.00req/s] [内存消耗：3,435.70kb] [文件加载：62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php/flow1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh,zh-CN;q=0.9',
+  'cookie' => 'PHPSESSID=uri7f3avct7tgl87l210s7h9bv; cart=a%3A2%3A%7Bs%3A8%3A%2216-73%2C77%22%3Bs%3A1%3A%222%22%3Bs%3A8%3A%2216-72%2C75%22%3Bi%3A24%3B%7D',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->checkLogin[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.026001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]

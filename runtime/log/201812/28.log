@@ -1,0 +1,175 @@
+---------------------------------------------------------------
+[ 2018-12-28T19:10:11+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/index/category/index/id/38
+[ info ] 127.0.0.1/shop/index.php/index/category/index/id/38 [运行时间：6.578377s][吞吐率：0.15req/s] [内存消耗：3,899.43kb] [文件加载：68]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.1619632685.1541818471; PHPSESSID=9lq7qjh2uvau91ba1gc2ntub81',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Category->index[ F:\wamp\www\shop\application\index\controller\Category.php ]
+[ info ] [ VIEW ] F:\wamp\www\shop/application/index\view\category\category.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+  5 => 'attrRes',
+  6 => 'priceSection',
+  7 => 'brandRes',
+  8 => 'goodsRes',
+  9 => 'cateId',
+  10 => 'price',
+  11 => 'ob',
+  12 => 'ow',
+  13 => 'attrValue',
+  14 => 'attrId',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.565033s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.314018s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `cate_type` = 3 ORDER BY sort DESC [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.079004s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 4 [ RunTime:0.029002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `tp_article` WHERE  `cate_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_nav` [ RunTime:0.146009s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_nav` ORDER BY sort DESC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_conf` [ RunTime:0.082005s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `tp_conf` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.057003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_attr` [ RunTime:0.070004s ]
+[ sql ] [ SQL ] SELECT `id`,`attr_name` FROM `tp_attr` WHERE  `id` IN (1,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.047002s ]
+[ sql ] [ SQL ] SELECT `attr_value`,`attr_id`,`goods_id` FROM `tp_goods_attr` WHERE  `attr_id` = 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.077004s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `attr_value`,`attr_id`,`goods_id` FROM `tp_goods_attr` WHERE  `attr_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `tp_goods` WHERE  `category_id` = 38 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.123007s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_name` FROM `tp_brand` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_name` FROM `tp_brand` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_name` FROM `tp_brand` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT MIN(shop_price) min_price,MAX(shop_price) max_price FROM `tp_goods` WHERE  `category_id` = 38 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 40 AND 59  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 60 AND 69  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 70 AND 89  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 90 AND 99  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 100 AND 107  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM ( SELECT count(*) FROM `tp_goods` `g` LEFT JOIN `tp_order_goods` `b` ON `g`.`id`=b.goods_id AND b.order_id IN(SELECT id FROM tp_order WHERE pay_status=1) WHERE  `g`.`on_sale` = 1 GROUP BY `g`.`id` ) `_group_count_` LIMIT 1 [ RunTime:0.123007s ]
+[ sql ] [ SQL ] SELECT `g`.`id`,`g`.`goods_name`,g.shop_price price,`g`.`time`,`g`.`mid_thumb`,IFNULL(SUM(b.goods_num),0) xl,(SELECT COUNT(id) FROM tp_comment c WHERE g.id=c.goods_id) pl,(SELECT group_concat(mid_photo) FROM tp_goods_photo gp WHERE g.id=gp.goods_id) mid_photo,(SELECT group_concat(id) FROM tp_recpos WHERE rec_type=1 AND id IN(SELECT recpos_id FROM tp_rec_item WHERE value_type=1 AND g.id=value_id)) recpos FROM `tp_goods` `g` LEFT JOIN `tp_order_goods` `b` ON `g`.`id`=b.goods_id AND b.order_id IN(SELECT id FROM tp_order WHERE pay_status=1) WHERE  `g`.`on_sale` = 1 GROUP BY `g`.`id` ORDER BY xl DESC LIMIT 0,24 [ RunTime:0.122007s ]
+---------------------------------------------------------------
+[ 2018-12-28T19:10:12+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/index/category/index/id/js/perfect-scrollbar/perfect-scrollbar.min.css
+[ info ] 127.0.0.1/shop/index.php/index/category/index/id/js/perfect-scrollbar/perfect-scrollbar.min.css [运行时间：0.304017s][吞吐率：3.29req/s] [内存消耗：3,428.86kb] [文件加载：63]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/shop/index.php/index/category/index/id/38',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => '_ga=GA1.1.1619632685.1541818471; PHPSESSID=9lq7qjh2uvau91ba1gc2ntub81',
+)
+[ info ] [ PARAM ] array (
+  'id' => 'js',
+  'scrollbar' => 'perfect-scrollbar.min.css',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Category->index[ F:\wamp\www\shop\application\index\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_attr` [ RunTime:0.019002s ]
+[ sql ] [ SQL ] SELECT `id`,`attr_name` FROM `tp_attr` WHERE  `id` IN (0) [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.023001s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `tp_goods` WHERE  `category_id` = 0 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT MIN(shop_price) min_price,MAX(shop_price) max_price FROM `tp_goods` WHERE  `category_id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+[ error ] [2]Division by zero[F:\wamp\www\shop\application\index\controller\Category.php:53]

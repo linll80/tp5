@@ -1,0 +1,1160 @@
+---------------------------------------------------------------
+[ 2018-08-28T09:48:56+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/order/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/order/lst.html [运行时间：0.964055s][吞吐率：1.04req/s] [内存消耗：4,850.98kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Order->lst[ F:\wamp\www\shop\application\admin\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\order\list.htm [ array (
+  0 => 'orderRes',
+  1 => 'orderStatus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.080005s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_order` `o` INNER JOIN `tp_user` `u` ON `o`.`user_id`=`u`.`id` LIMIT 1 [ RunTime:0.049002s ]
+[ sql ] [ SQL ] SELECT `o`.`id`,`o`.`out_trade_no`,`o`.`goods_total_price`,`o`.`pay_status`,`o`.`order_status`,`o`.`post_status`,`o`.`distribution`,`o`.`payment`,`o`.`name`,`o`.`phone`,`o`.`order_time`,`u`.`username` FROM `tp_order` `o` INNER JOIN `tp_user` `u` ON `o`.`user_id`=`u`.`id` ORDER BY o.id DESC LIMIT 0,10 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:48:57+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/glyphicons-halflings-regular.woff2
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.060003s][吞吐率：16.67req/s] [内存消耗：2,572.27kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/bootstrap.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T09:48:57+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.076004s][吞吐率：13.16req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T09:49:26+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/order/lst.html?status=got_goods
+[ info ] 127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods [运行时间：0.150009s][吞吐率：6.67req/s] [内存消耗：4,812.70kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'status' => 'got_goods',
+)
+[ info ] [ RUN ] app\admin\controller\Order->lst[ F:\wamp\www\shop\application\admin\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\order\list.htm [ array (
+  0 => 'orderRes',
+  1 => 'orderStatus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_order` `o` INNER JOIN `tp_user` `u` ON `o`.`user_id`=`u`.`id` WHERE  `o`.`post_status` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `o`.`id`,`o`.`out_trade_no`,`o`.`goods_total_price`,`o`.`pay_status`,`o`.`order_status`,`o`.`post_status`,`o`.`distribution`,`o`.`payment`,`o`.`name`,`o`.`phone`,`o`.`order_time`,`u`.`username` FROM `tp_order` `o` INNER JOIN `tp_user` `u` ON `o`.`user_id`=`u`.`id` WHERE  `o`.`post_status` = 2 ORDER BY o.id DESC LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:49:26+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/glyphicons-halflings-regular.woff2
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.087005s][吞吐率：11.49req/s] [内存消耗：2,572.30kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/bootstrap.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T09:49:26+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.094005s][吞吐率：10.64req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T09:58:08+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/order/userlist
+[ info ] 127.0.0.1/shop/index.php/admin/order/userlist [运行时间：0.116006s][吞吐率：8.62req/s] [内存消耗：4,294.16kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Order->userlist[ F:\wamp\www\shop\application\admin\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON ml.top_point >=u.points >= ml.bom_point [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T09:58:12+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/order/userlist
+[ info ] 127.0.0.1/shop/index.php/admin/order/userlist [运行时间：0.085005s][吞吐率：11.76req/s] [内存消耗：4,294.65kb] [文件加载：49]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'userlist',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Order->userlist[ F:\wamp\www\shop\application\admin\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON ml.top_point >=u.points >= ml.bom_point [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:08:13+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/order/lst.html?status=got_goods
+[ info ] 127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods [运行时间：0.232013s][吞吐率：4.31req/s] [内存消耗：5,096.02kb] [文件加载：59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'status' => 'got_goods',
+)
+[ info ] [ RUN ] app\admin\controller\Order->lst[ F:\wamp\www\shop\application\admin\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\order\list.htm [ array (
+  0 => 'orderRes',
+  1 => 'orderStatus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_order` `o` INNER JOIN `tp_user` `u` ON `o`.`user_id`=`u`.`id` WHERE  `o`.`post_status` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `o`.`id`,`o`.`out_trade_no`,`o`.`goods_total_price`,`o`.`pay_status`,`o`.`order_status`,`o`.`post_status`,`o`.`distribution`,`o`.`payment`,`o`.`name`,`o`.`phone`,`o`.`order_time`,`u`.`username` FROM `tp_order` `o` INNER JOIN `tp_user` `u` ON `o`.`user_id`=`u`.`id` WHERE  `o`.`post_status` = 2 ORDER BY o.id DESC LIMIT 0,10 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:08:13+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.064003s][吞吐率：15.62req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:08:13+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/glyphicons-halflings-regular.woff2
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/glyphicons-halflings-regular.woff2 [运行时间：0.080005s][吞吐率：12.50req/s] [内存消耗：2,572.30kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/bootstrap.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:08:15+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.140008s][吞吐率：7.14req/s] [内存消耗：5,114.16kb] [文件加载：63]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` ORDER BY id DESC LIMIT 0,2 [ RunTime:0.000000s ]
+[ error ] [8]未定义变量: brandRes[F:\wamp\www\shop\runtime\temp\ab3ceff02a2d8f78202060db88dd137d.php:461]
+---------------------------------------------------------------
+[ 2018-08-28T10:08:34+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：5,114.55kb] [文件加载：63]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` ORDER BY id DESC LIMIT 0,2 [ RunTime:0.000000s ]
+[ error ] [8]未定义数组索引: user_name[F:\wamp\www\shop\runtime\temp\ab3ceff02a2d8f78202060db88dd137d.php:464]
+---------------------------------------------------------------
+[ 2018-08-28T10:10:22+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.111006s][吞吐率：9.01req/s] [内存消耗：5,026.87kb] [文件加载：59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` ORDER BY id DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:10:23+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.070004s][吞吐率：14.28req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:14:42+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.136008s][吞吐率：7.35req/s] [内存消耗：5,033.89kb] [文件加载：59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON top_point >=u.points >= ml.bom_point LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON top_point >=u.points >= ml.bom_point ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:14:42+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.067004s][吞吐率：14.92req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:16:07+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.118007s][吞吐率：8.47req/s] [内存消耗：4,755.30kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON ml.top_point >=u.points >= ml.bom_point LIMIT 1 [ RunTime:0.005001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON ml.top_point >=u.points >= ml.bom_point ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:16:07+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.051003s][吞吐率：19.61req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:16:09+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.099006s][吞吐率：10.10req/s] [内存消耗：4,755.30kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010001s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON ml.top_point >=u.points >= ml.bom_point LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON ml.top_point >=u.points >= ml.bom_point ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:16:09+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.047003s][吞吐率：21.28req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:16:37+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.098006s][吞吐率：10.20req/s] [内存消耗：4,755.55kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.015001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:16:37+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.057004s][吞吐率：17.54req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:16:43+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.121007s][吞吐率：8.26req/s] [内存消耗：4,755.30kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON ml.top_point >=u.points >= ml.bom_point LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON ml.top_point >=u.points >= ml.bom_point ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:16:43+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.053003s][吞吐率：18.87req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:17:14+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.114007s][吞吐率：8.77req/s] [内存消耗：4,755.55kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:17:14+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.054003s][吞吐率：18.52req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:17:27+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.106006s][吞吐率：9.43req/s] [内存消耗：4,755.55kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:17:27+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.059004s][吞吐率：16.95req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:17:36+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.088005s][吞吐率：11.36req/s] [内存消耗：4,755.55kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.014001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:17:37+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.048003s][吞吐率：20.83req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.125007s][吞吐率：8.00req/s] [内存消耗：5,034.34kb] [文件加载：59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.020001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:18:39+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.084004s][吞吐率：11.90req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:18:49+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.103006s][吞吐率：9.71req/s] [内存消耗：5,034.41kb] [文件加载：59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:18:50+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.069004s][吞吐率：14.49req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-08-28T10:21:15+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/user/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/user/lst.html [运行时间：0.110006s][吞吐率：9.09req/s] [内存消耗：5,034.94kb] [文件加载：59]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'user',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/admin/order/lst.html?status=got_goods',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\User->lst[ F:\wamp\www\shop\application\admin\controller\User.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\user\list.htm [ array (
+  0 => 'userRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_user` [ RunTime:0.016000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_user` `u` INNER JOIN `tp_member_level` `ml` ON u.points >=ml.bom_point AND ml.top_point >= u.points ORDER BY u.id DESC LIMIT 0,2 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-08-28T10:21:15+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0
+[ info ] 127.0.0.1/shop/public/static/admin/fonts/fontawesome-webfont.woff2?v=4.3.0 [运行时间：0.063003s][吞吐率：15.87req/s] [内存消耗：2,572.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'admin',
+    2 => 'fonts',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'origin' => 'http://127.0.0.1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/public/static/admin/style/font-awesome.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+)
+[ info ] [ PARAM ] array (
+  'v' => '4.3.0',
+)
+[ info ] [ LOG ] INIT File

@@ -1,0 +1,821 @@
+---------------------------------------------------------------
+[ 2018-10-18T16:35:52+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/admin/order/lst.html
+[ info ] 127.0.0.1/shop/index.php/admin/order/lst.html [运行时间：3.393194s][吞吐率：0.29req/s] [内存消耗：4,854.03kb] [文件加载：57]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'order',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Order->lst[ F:\wamp\www\shop\application\admin\controller\Order.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] F:\wamp\www\shop/application/admin\view\order\list.htm [ array (
+  0 => 'orderRes',
+  1 => 'orderStatus',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.062003s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_order` [ RunTime:0.306018s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_order` `o` INNER JOIN `tp_user` `u` ON `o`.`user_id`=`u`.`id` LIMIT 1 [ RunTime:0.191011s ]
+[ sql ] [ SQL ] SELECT `o`.`id`,`o`.`out_trade_no`,`o`.`goods_total_price`,`o`.`pay_status`,`o`.`order_status`,`o`.`post_status`,`o`.`distribution`,`o`.`payment`,`o`.`name`,`o`.`phone`,`o`.`order_time`,`u`.`username` FROM `tp_order` `o` INNER JOIN `tp_user` `u` ON `o`.`user_id`=`u`.`id` ORDER BY o.id DESC LIMIT 0,10 [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:01+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php
+[ info ] 127.0.0.1/shop/index.php [运行时间：8.403480s][吞吐率：0.12req/s] [内存消耗：6,445.38kb] [文件加载：67]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Index->index[ F:\wamp\www\shop\application\index\controller\Index.php ]
+[ info ] [ VIEW ] F:\wamp\www\shop/application/index\view\index\index.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+  5 => 'show_right',
+  6 => 'show_nav',
+  7 => 'categoryRes',
+  8 => 'indexGoodsRes',
+  9 => 'anmentRes',
+  10 => 'salesRes',
+  11 => 'alternateImgRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_cate` [ RunTime:0.130008s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_cate` WHERE  `cate_type` = 3 ORDER BY sort DESC [ RunTime:0.008000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_article` [ RunTime:0.129008s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 4 [ RunTime:0.031002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 5 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 7 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 16 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 17 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`title` FROM `tp_article` WHERE  `cate_id` = 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_nav` [ RunTime:0.173010s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_nav` ORDER BY sort DESC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_conf` [ RunTime:0.118007s ]
+[ sql ] [ SQL ] SELECT `ename`,`value` FROM `tp_conf` [ RunTime:0.037002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.360021s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.026001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 20 ORDER BY id DESC LIMIT 3 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_article` WHERE  `cate_id` = 26 ORDER BY id DESC LIMIT 3 [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_rec_item` [ RunTime:0.349020s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `recpos_id` = 5  AND `value_type` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 2  AND `pid` = 0 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 7  AND `pid` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 8  AND `pid` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 9  AND `pid` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 21  AND `pid` = 0 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `recpos_id` = 5  AND `value_type` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 2  AND `pid` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 7  AND `pid` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 8  AND `pid` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 9  AND `pid` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 21  AND `pid` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:1.071062s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (29,21)  AND `id` IN (10,13,6,9,7,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.178010s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 4 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (6,26,27,28,5,22,23,24,25,21,29,2)  AND `id` IN (11,10,9,7,5,6,8,4,13,2,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.041002s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_brands` [ RunTime:0.296017s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_brands` WHERE  `category_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.248015s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.077004s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_ad` [ RunTime:0.628036s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_ad` WHERE  `category_id` = 2 [ RunTime:0.070004s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `recpos_id` = 5  AND `value_type` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 2  AND `pid` = 7 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 7  AND `pid` = 7 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 8  AND `pid` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 9  AND `pid` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 21  AND `pid` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (11,12,13,14,8)  AND `id` IN (10,13,6,9,7,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (15,16,17,9)  AND `id` IN (10,13,6,9,7,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`pid` FROM `tp_category` [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 4 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_goods` WHERE  `category_id` IN (8,11,12,13,14,9,15,16,17,10,18,19,20,7)  AND `id` IN (11,10,9,7,5,6,8,4,13,2,16) ORDER BY id DESC LIMIT 6 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_brands` WHERE  `category_id` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_ad` WHERE  `category_id` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_rec_item` WHERE  `value_type` = 1  AND `recpos_id` = 8 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `id`,`mid_thumb`,`goods_name`,`shop_price`,`markte_price` FROM `tp_goods` WHERE  `id` IN (10,11,13,16) LIMIT 20 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_alternate_img` [ RunTime:0.243014s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_alternate_img` WHERE  `status` = 1 ORDER BY sort DESC [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:05+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/sprite_index.png
+[ info ] 127.0.0.1/shop/public/static/index/img/sprite_index.png [运行时间：0.235013s][吞吐率：4.26req/s] [内存消耗：2,574.83kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/public/static/index/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-18T16:36:05+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/0_thumb_G_1490205189180.jpg
+[ info ] 127.0.0.1/shop/public/static/index/img/0_thumb_G_1490205189180.jpg [运行时间：1.609092s][吞吐率：0.62req/s] [内存消耗：2,575.11kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-18T16:36:05+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/brand/lst.html
+[ info ] 127.0.0.1/shop/index.php/index/brand/lst.html [运行时间：0.355021s][吞吐率：2.82req/s] [内存消耗：4,576.25kb] [文件加载：55]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'brand',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+  'page' => '1',
+)
+[ info ] [ RUN ] app\index\controller\Brand->lst[ F:\wamp\www\shop\application\index\controller\Brand.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.013000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_brand` LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` ORDER BY id DESC LIMIT 0,17 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:05+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/cartgoodsnum.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/cartgoodsnum.html [运行时间：0.378022s][吞吐率：2.65req/s] [内存消耗：5,669.01kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'cartgoodsnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->cartGoodsNum[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:06+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/checklogin.html
+[ info ] 127.0.0.1/shop/index.php/member/account/checklogin.html [运行时间：0.992056s][吞吐率：1.01req/s] [内存消耗：5,792.84kb] [文件加载：62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->checkLogin[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.030002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:24+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/category/getcateinfo.html
+[ info ] 127.0.0.1/shop/index.php/index/category/getcateinfo.html [运行时间：0.471027s][吞吐率：2.12req/s] [内存消耗：5,773.69kb] [文件加载：61]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'getcateinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+  'id' => '33',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Category->getCateInfo[ F:\wamp\www\shop\application\index\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.050003s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 34 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_words` [ RunTime:0.182010s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_words` WHERE  `category_id` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_brands` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_brands` WHERE  `category_id` = 33 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:24+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/category/getcateinfo.html
+[ info ] 127.0.0.1/shop/index.php/index/category/getcateinfo.html [运行时间：0.537031s][吞吐率：1.86req/s] [内存消耗：5,775.27kb] [文件加载：61]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'getcateinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '4',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Category->getCateInfo[ F:\wamp\www\shop\application\index\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.058004s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 6 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 5 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 21 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_words` [ RunTime:0.177010s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_words` WHERE  `category_id` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_brands` [ RunTime:0.018001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_brands` WHERE  `category_id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.021002s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:24+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/category/getcateinfo.html
+[ info ] 127.0.0.1/shop/index.php/index/category/getcateinfo.html [运行时间：0.253014s][吞吐率：3.95req/s] [内存消耗：5,656.61kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'category',
+    2 => 'getcateinfo',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '5',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://127.0.0.1/shop/index.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Category->getCateInfo[ F:\wamp\www\shop\application\index\controller\Category.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_words` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_words` WHERE  `category_id` = 38 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category_brands` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category_brands` WHERE  `category_id` = 38 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.012001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_brand` WHERE  `id` = 0 LIMIT 1 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/category/38.html
+[ info ] 127.0.0.1/shop/index.php/category/38.html [运行时间：2.267130s][吞吐率：0.44req/s] [内存消耗：6,219.32kb] [文件加载：62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'Category',
+    2 => 'index',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+  'id' => '38',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Category->index[ F:\wamp\www\shop\application\index\controller\Category.php ]
+[ info ] [ VIEW ] F:\wamp\www\shop/application/index\view\category\category.htm [ array (
+  0 => 'helpCateRes',
+  1 => 'shopInfoRes',
+  2 => 'navRes',
+  3 => 'configs',
+  4 => 'cateRes',
+  5 => 'attrRes',
+  6 => 'priceSection',
+  7 => 'brandRes',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.013001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `id` = 38 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_attr` [ RunTime:0.247014s ]
+[ sql ] [ SQL ] SELECT `id`,`attr_name` FROM `tp_attr` WHERE  `id` IN (1,3) [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods_attr` [ RunTime:0.932054s ]
+[ sql ] [ SQL ] SELECT `attr_value`,`attr_id`,`goods_id` FROM `tp_goods_attr` WHERE  `attr_id` = 1 [ RunTime:0.117007s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_goods` [ RunTime:0.019001s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.002000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001001s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `attr_value`,`attr_id`,`goods_id` FROM `tp_goods_attr` WHERE  `attr_id` = 3 [ RunTime:0.002001s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 6 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 7 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 8 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 9 LIMIT 1 [ RunTime:0.003000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 11 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 15 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 19 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `category_id` FROM `tp_goods` WHERE  `id` = 20 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `brand_id` FROM `tp_goods` WHERE  `category_id` = 38 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_brand` [ RunTime:0.016001s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_name` FROM `tp_brand` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_name` FROM `tp_brand` WHERE  `id` = 13 LIMIT 1 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT `id`,`brand_name` FROM `tp_brand` WHERE  `id` = 14 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT MIN(shop_price) min_price,MAX(shop_price) max_price FROM `tp_goods` WHERE  `category_id` = 38 LIMIT 1 [ RunTime:0.049003s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 40 AND 59  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.156008s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 60 AND 69  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 70 AND 89  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 90 AND 99  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `tp_goods` WHERE  `shop_price` BETWEEN 100 AND 107  AND `category_id` = 38  AND `on_sale` = 1 LIMIT 1 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:27+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/category/js/perfect-scrollbar/perfect-scrollbar.min.css
+[ info ] 127.0.0.1/shop/index.php/category/js/perfect-scrollbar/perfect-scrollbar.min.css [运行时间：0.050003s][吞吐率：20.00req/s] [内存消耗：2,574.88kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'category',
+    1 => 'js',
+    2 => 'perfect-scrollbar',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'text/css,*/*;q=0.1',
+  'referer' => 'http://127.0.0.1/shop/index.php/category/38.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-18T16:36:28+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/js/perfect-scrollbar/perfect-scrollbar.min.js
+[ info ] 127.0.0.1/shop/public/static/index/js/perfect-scrollbar/perfect-scrollbar.min.js [运行时间：0.080004s][吞吐率：12.50req/s] [内存消耗：2,576.10kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://127.0.0.1/shop/index.php/category/38.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+  'scrollbar' => 'perfect-scrollbar.min.js',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-18T16:36:28+08:00 ] 127.0.0.1 127.0.0.1 POST /shop/index.php/index/flow/cartgoodsnum.html
+[ info ] 127.0.0.1/shop/index.php/index/flow/cartgoodsnum.html [运行时间：0.192011s][吞吐率：5.21req/s] [内存消耗：5,668.91kb] [文件加载：60]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'flow',
+    2 => 'cartgoodsnum',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '0',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://127.0.0.1',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php/category/38.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\index\controller\Flow->cartGoodsNum[ F:\wamp\www\shop\application\index\controller\Flow.php ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.022001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.000000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:28+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/member/account/checklogin.html
+[ info ] 127.0.0.1/shop/index.php/member/account/checklogin.html [运行时间：0.197012s][吞吐率：5.08req/s] [内存消耗：5,792.70kb] [文件加载：62]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'member',
+    1 => 'account',
+    2 => 'checklogin',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'referer' => 'http://127.0.0.1/shop/index.php/category/38.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ RUN ] app\member\controller\Account->checkLogin[ F:\wamp\www\shop\application\member\controller\Account.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=tpshop;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tp_category` [ RunTime:0.017001s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 0 ORDER BY sort ASC [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 7 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 2 [ RunTime:0.001000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 33 [ RunTime:0.000000s ]
+[ sql ] [ SQL ] SELECT * FROM `tp_category` WHERE  `pid` = 38 [ RunTime:0.001000s ]
+---------------------------------------------------------------
+[ 2018-10-18T16:36:30+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/check/checkbox_12x12.png
+[ info ] 127.0.0.1/shop/public/static/index/img/check/checkbox_12x12.png [运行时间：0.105006s][吞吐率：9.52req/s] [内存消耗：2,575.80kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/public/static/index/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+  'check' => 'checkbox_12x12.png',
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-18T16:36:30+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/dian-ico2.png
+[ info ] 127.0.0.1/shop/public/static/index/img/dian-ico2.png [运行时间：0.112006s][吞吐率：8.93req/s] [内存消耗：2,574.96kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/public/static/index/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-18T16:36:31+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/index.php/category/favicon.ico
+[ info ] 127.0.0.1/shop/index.php/category/favicon.ico [运行时间：0.086005s][吞吐率：11.63req/s] [内存消耗：2,574.34kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'category',
+    1 => 'favicon.ico',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/index.php/category/38.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-10-18T16:41:12+08:00 ] 127.0.0.1 127.0.0.1 GET /shop/public/static/index/img/check/checkbox_cur_12x12.png
+[ info ] 127.0.0.1/shop/public/static/index/img/check/checkbox_cur_12x12.png [运行时间：0.056003s][吞吐率：17.86req/s] [内存消耗：2,576.01kb] [文件加载：40]
+[ info ] [ LANG ] F:\wamp\www\shop\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'index',
+    2 => 'img',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://127.0.0.1/shop/public/static/index/css/style.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=50n0mjetarb3jo732pgtkbgo70',
+)
+[ info ] [ PARAM ] array (
+  'check' => 'checkbox_cur_12x12.png',
+)
+[ info ] [ LOG ] INIT File
