@@ -1,7 +1,7 @@
 <?php
 namespace app\admin\controller;
 use think\Controller;
-use Catetree\Catetree;
+use catetree\Catetree;
 class Goods extends Controller
 {
     public function lst()
